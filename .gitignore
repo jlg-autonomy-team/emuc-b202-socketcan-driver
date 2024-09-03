@@ -872,3 +872,16 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,git,jetbrains+all,cmake,python,visualstudio,visualstudiocode,ros2,gcov,eclipse
 
+### user defined ignores
+
+# precompiled libraries
+!utility/lib_emuc2_32.a
+!utility/lib_emuc2_64.a
+
+# build residue
+*.depend*
+*.o64
+*emuc_32
+*emucd_32
+*emuc_64
+*emucd_64
