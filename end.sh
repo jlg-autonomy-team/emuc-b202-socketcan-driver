@@ -1,6 +1,6 @@
 ### parameter
-socket_name_1=emuccan0
-socket_name_2=emuccan1
+socket_name_1=can0
+socket_name_2=can1
 
 ### step
 sudo ip link set ${socket_name_1} down
